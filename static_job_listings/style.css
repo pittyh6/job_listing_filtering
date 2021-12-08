@@ -14,9 +14,19 @@ body{
     font-family: "Spartan" !important;
     font-size: 15px !important;
 }
+.row{
+    background-color: var(--White);
+    margin: 8% auto;
+}
 h1, h3, .tag-dark-green-letters{
     font-family: "Spartan" !important;
     font-weight: 700 !important;
+}
+h1{
+    font-size: 2rem !important;
+}
+h3{
+    font-size: 1.5rem!important;
 }
 
 .company, .role, .level, .language, .tools{
