@@ -10,6 +10,8 @@
 
 body{
     background-color: var(--LightGrayishCyan) !important;
+    font-family: "Spartan" !important;
+    font-size: 15px !important;
 }
 #bg-nav {
     background-color: var(--DesaturatedDarkCyan);
