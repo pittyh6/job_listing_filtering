@@ -5,6 +5,7 @@
     --LightGrayishCyan: hsl(180, 31%, 95%); /*(Filter Tablets)*/
     --DarkGrayishCyan: hsl(180, 8%, 52%);
     --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
+    --White: #fff;
 }
 
 
@@ -13,13 +14,19 @@ body{
     font-family: "Spartan" !important;
     font-size: 15px !important;
 }
-h1{
+h1, h3, .tag-dark-green-letters{
     font-family: "Spartan" !important;
     font-weight: 700 !important;
 }
-h3 {
-    font-family: "Spartan" !important;
-    font-weight: 500 !important;
+
+.company, .role, .level, .language, .tools{
+    color: var(--DesaturatedDarkCyan);
+}
+.tag-job{
+    color: var(--White) !important;
+}
+.desc{
+    color: var(--DarkGrayishCyan);
 }
 /* Nav */
 #bg-nav {
