@@ -12,6 +12,7 @@ body{
     background-color: var(--LightGrayishCyan) !important;
 }
 #bg-nav {
+    background-color: var(--DesaturatedDarkCyan);
     width: 100% !important;
 }
 
