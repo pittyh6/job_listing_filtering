@@ -28,6 +28,9 @@ h1, h3, .tag-dark-green-letters{
 .desc{
     color: var(--DarkGrayishCyan);
 }
+.hide-element{
+    visibility: hidden;
+}
 /* Nav */
 #bg-nav {
     background-color: var(--DesaturatedDarkCyan);
