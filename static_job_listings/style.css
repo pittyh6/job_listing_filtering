@@ -1,2 +1,23 @@
+/* VARIABLES */
+:root{
+    --DesaturatedDarkCyan: hsl(180, 29%, 50%);
+    --LightGrayishCyan: hsl(180, 52%, 96%); /*(Background)*/
+    --LightGrayishCyan: hsl(180, 31%, 95%); /*(Filter Tablets)*/
+    --DarkGrayishCyan: hsl(180, 8%, 52%);
+    --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
+}
+
+
+body{
+    background-color: var(--LightGrayishCyan) !important;
+}
+#bg-nav {
+    width: 100% !important;
+}
+
+
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
