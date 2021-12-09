@@ -14,10 +14,6 @@ body{
     font-family: "Spartan" !important;
     font-size: 15px !important;
 }
-.row{
-    background-color: var(--White);
-    margin: 8% auto;
-}
 h1, h3, .tag-dark-green-letters{
     font-family: "Spartan" !important;
     font-weight: 700 !important;
@@ -29,12 +25,34 @@ h3{
     font-size: 1.5rem!important;
 }
 
+.row{
+    background-color: var(--White);
+    margin: 8% auto;
+}
 .company, .role, .level, .language, .tools{
     color: var(--DesaturatedDarkCyan);
 }
 .tag-job{
-    color: var(--White) !important;
+    border-radius: 10rem !important;
+    color: var(--White) !important;   
+    font-size: 10px !important;     
+    text-transform: uppercase;
 }
+.badge{
+    padding: 0.6em !important;
+}
+.company{
+    width: 25% !important;
+}
+.new{
+    background-color: var(--DesaturatedDarkCyan);
+    width: 10% !important;
+}
+.feature{
+    background-color: var(--VeryDarkGrayishCyan);
+    width: 14% !important;
+}
+
 .desc{
     color: var(--DarkGrayishCyan);
 }
@@ -42,8 +60,8 @@ h3{
     visibility: hidden;
 }
 /* Nav */
-#bg-nav {
-    background-color: var(--DesaturatedDarkCyan);
+#bg-nav img{
+    background-color: var(--DesaturatedDarkCyan) !important;
     width: 100% !important;
 }
 
