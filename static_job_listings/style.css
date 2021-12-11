@@ -33,7 +33,7 @@ li{
     margin: auto;
 }
 .jb-row{
-    margin: 8% auto;
+    margin: 8% auto !important;
 }
 .company, .role, .level, .language, .tools{
     color: var(--DesaturatedDarkCyan);
@@ -48,6 +48,9 @@ li{
     padding: 0.6em !important;
 }
 .company{
+    width: 50% !important;
+}
+.cp-size{
     width: 30% !important;
 }
 .new{
@@ -72,6 +75,11 @@ li{
 #bg-nav img{
     background-color: var(--DesaturatedDarkCyan) !important;
     width: 100% !important;
+}
+
+/* list jobs */
+.content-left{
+    float: left
 }
 
 
