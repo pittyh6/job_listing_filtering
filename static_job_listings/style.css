@@ -28,7 +28,9 @@ h3{
 li{
     display: inline-block;
 }
-
+h1:hover{
+    color: var(--DesaturatedDarkCyan) !important;
+}
 .row{
     background-color: var(--White);
     margin: auto;
@@ -80,6 +82,10 @@ li{
 #tg-knowledge{
     padding-top: 4%;
     text-align: right;
+}
+#tg-knowledge li:hover{
+    color: var(--LightGrayishCyan);
+    background-color: var(--DesaturatedDarkCyan)
 }
 #tg-knowledge li{
     background-color: var(--LightGrayishCyan);
