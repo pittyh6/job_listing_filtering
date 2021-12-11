@@ -70,7 +70,8 @@ li{
     visibility: hidden;
 }
 #tg-knowledge li{
-    background-color: var(--DesaturatedDarkCyan);
+    background-color: var(--LightGrayishCyan);
+    color: var(--DesaturatedDarkCyan);
 }
 /* Nav */
 #bg-nav img{
@@ -89,12 +90,19 @@ li{
 .desc{
     padding: 0;
 }
+/* bullet points */
+.content-right ul li { 
+    list-style: none; display: inline;
+}
+.content-right ul li:after { 
+    content: " \00b7"; 
+    font-size: 25px;
+    margin: auto 3% !important;
+}
+.content-right ul li:last-child:after { 
+    content: none; 
+}
 
-
-
-.content-right ul li { list-style: none; display: inline; }
-.content-right ul li:after { content: " \00b7"; }
-.content-right ul li:last-child:after { content: none; }
 
 
 
