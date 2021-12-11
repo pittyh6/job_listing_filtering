@@ -25,6 +25,7 @@
 * Better understand of col-lg, col-md, col-sm
 * Bootstrap
 * Bootstrap badge 
+* CSS shadow box
 
 
 

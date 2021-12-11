@@ -6,6 +6,7 @@
     --DarkGrayishCyan: hsl(180, 8%, 52%);
     --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
     --White: #fff;
+    --shadowBox: hsl(180deg 29% 50% / 30%);
 }
 
 
@@ -34,6 +35,7 @@ li{
 }
 .jb-row{
     border-radius: 5px;
+    box-shadow: 5px 10px 18px var(--shadowBox);
     margin: 8% auto !important;
     padding: 5% 3%;
 }
