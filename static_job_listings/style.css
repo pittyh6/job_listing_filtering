@@ -20,10 +20,10 @@ h1, h3, .tag-dark-green-letters{
     font-weight: 700 !important;
 }
 h1{
-    font-size: 1.5rem !important;
+    font-size: 1.2rem !important;
 }
 h3{
-    font-size: 1rem!important;
+    font-size: 0.8rem!important;
 }
 li{
     display: inline-block;
@@ -131,7 +131,16 @@ h1:hover{
 
 /* screen <= 991px */
 @media (max-width: 991px) {
+    hr{
+        margin: 0px !important;
+    }
     .hide-element{
         visibility: visible;
+    }
+    #tg-knowledge{
+        text-align: left;
+    }
+    #tg-knowledge li{
+        margin-top: 15px
     }
 }
