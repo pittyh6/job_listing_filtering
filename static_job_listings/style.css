@@ -19,10 +19,10 @@ h1, h3, .tag-dark-green-letters{
     font-weight: 700 !important;
 }
 h1{
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
 }
 h3{
-    font-size: 1.5rem!important;
+    font-size: 1rem!important;
 }
 li{
     display: inline-block;
@@ -30,6 +30,9 @@ li{
 
 .row{
     background-color: var(--White);
+    margin: auto;
+}
+.jb-row{
     margin: 8% auto;
 }
 .company, .role, .level, .language, .tools{
@@ -45,7 +48,7 @@ li{
     padding: 0.6em !important;
 }
 .company{
-    width: 25% !important;
+    width: 30% !important;
 }
 .new{
     background-color: var(--DesaturatedDarkCyan);
