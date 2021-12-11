@@ -33,8 +33,13 @@ li{
     margin: auto;
 }
 .jb-row{
+    border-radius: 5px;
     margin: 8% auto !important;
     padding: 5% 3%;
+}
+.jb-row-feature{
+    border-left: 5px solid var(--DesaturatedDarkCyan);
+    
 }
 .company, .role, .level, .language, .tools{
     color: var(--DesaturatedDarkCyan);
