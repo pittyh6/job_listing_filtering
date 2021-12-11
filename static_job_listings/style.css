@@ -52,7 +52,7 @@ li{
     width: 50% !important;
 }
 .cp-size{
-    width: 30% !important;
+    width: 150px!important;
 }
 .new{
     background-color: var(--DesaturatedDarkCyan);
