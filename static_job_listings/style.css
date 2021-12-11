@@ -126,3 +126,12 @@ h1:hover{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/* screen <= 991px */
+@media (max-width: 991px) {
+    .hide-element{
+        visibility: visible;
+    }
+}
