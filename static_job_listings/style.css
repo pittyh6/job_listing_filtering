@@ -47,6 +47,7 @@ li{
 }
 .badge{
     padding: 0.6em !important;
+    margin-left: 9px;
 }
 .company{
     width: 50% !important;
@@ -68,6 +69,10 @@ li{
 }
 .hide-element{
     visibility: hidden;
+}
+#tg-knowledge{
+    padding-top: 4%;
+    text-align: right;
 }
 #tg-knowledge li{
     background-color: var(--LightGrayishCyan);
