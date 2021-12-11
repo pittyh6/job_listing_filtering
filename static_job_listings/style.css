@@ -34,6 +34,7 @@ li{
 }
 .jb-row{
     margin: 8% auto !important;
+    padding: 5% 3%;
 }
 .company, .role, .level, .language, .tools{
     color: var(--DesaturatedDarkCyan);
@@ -55,11 +56,11 @@ li{
 }
 .new{
     background-color: var(--DesaturatedDarkCyan);
-    width: 10% !important;
+    width: 55px !important;
 }
 .feature{
     background-color: var(--VeryDarkGrayishCyan);
-    width: 16% !important;
+    width: 73px!important;
 }
 
 .desc{
@@ -81,8 +82,13 @@ li{
 .content-left{
     float: left
 }
+.content-right{
+    margin-left: 25%;
+}
 
-
+.desc{
+    padding: 0;
+}
 
 
 
