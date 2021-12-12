@@ -143,4 +143,18 @@ h1:hover{
     #tg-knowledge li{
         margin-top: 15px
     }
+    .content-left{
+        float: none;
+        height: 50px;
+    }
+    .content-right{
+        margin-left: 0;
+    }
+    #job-list img{
+        bottom: 68px;
+        position: relative;
+    }
+    .jb-row{
+        margin: 18% auto !important;
+    }
 }
