@@ -134,14 +134,19 @@ h1:hover{
     hr{
         margin: 0px !important;
     }
+    
     .hide-element{
         visibility: visible;
     }
     #tg-knowledge{
+        padding-left: 0 !important;
         text-align: left;
     }
     #tg-knowledge li{
         margin-top: 15px
+    }
+    #tg-knowledge .badge{
+        margin-left: 0 !important;
     }
     .content-left{
         float: none;
@@ -156,5 +161,15 @@ h1:hover{
     }
     .jb-row{
         margin: 18% auto !important;
+    }
+    
+}
+
+@media (max-width: 390px) {
+    .cp-size{
+        width: 100px !important;
+    }
+    h1{
+       font-size: 1rem !important; 
     }
 }
