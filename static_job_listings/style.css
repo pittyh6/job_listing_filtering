@@ -143,7 +143,8 @@ h1:hover{
         text-align: left;
     }
     #tg-knowledge li{
-        margin-top: 15px
+        margin-top: 15px;
+        margin-right: 10px;
     }
     #tg-knowledge .badge{
         margin-left: 0 !important;
