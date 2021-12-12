@@ -172,4 +172,7 @@ h1:hover{
     h1{
        font-size: 1rem !important; 
     }
+    .jb-row{
+        margin: 30% auto !important;
+    }
 }
