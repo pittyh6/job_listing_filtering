@@ -140,7 +140,19 @@ h1:hover{
 #job-filter #tg-knowledge {
     padding-top: 14px !important;
 }
+/* #job-filter .badge:after{
+    display: inline-block;
+    content: url(images/icon-remove.svg);
+} */
 
+#tg-knowledge li.img-job-filter {
+    background-color: var(--DesaturatedDarkCyan);
+    border-radius: 0px 5px 5px 0px;
+    padding: 4.5px !important;
+}
+#tg-knowledge li.img-job-filter:hover{
+    background-color: var(--VeryDarkGrayishCyan);
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
