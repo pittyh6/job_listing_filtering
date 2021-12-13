@@ -60,6 +60,7 @@ h1:hover{
 .badge{
     padding: 0.6em !important;
     margin-left: 9px;
+    margin-bottom: 13px;;
 }
 .company{
     width: 50% !important;
@@ -152,6 +153,13 @@ h1:hover{
 }
 #tg-knowledge li.img-job-filter:hover{
     background-color: var(--VeryDarkGrayishCyan);
+}
+.clear-btn{    
+    margin: auto !important;
+    text-align: center!important;
+}
+.clear-btn a{
+    color: var(--DesaturatedDarkCyan) !important;
 }
 
 
