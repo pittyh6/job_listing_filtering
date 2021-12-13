@@ -35,11 +35,14 @@ h1:hover{
     background-color: var(--White);
     margin: auto;
 }
+#job-list .jb-row{
+    margin: 3% auto !important;
+    padding: 5% 3%;
+}
 .jb-row{
     border-radius: 5px;
     box-shadow: 5px 10px 18px var(--shadowBox);
-    margin: 8% auto !important;
-    padding: 5% 3%;
+    
 }
 .jb-row-feature{
     border-left: 5px solid var(--DesaturatedDarkCyan);
@@ -90,6 +93,7 @@ h1:hover{
 #tg-knowledge li{
     background-color: var(--LightGrayishCyan);
     color: var(--DesaturatedDarkCyan);
+    padding: 10px !important;
 }
 /* Nav */
 #bg-nav img{
@@ -121,6 +125,21 @@ h1:hover{
     content: none; 
 }
 
+/* FILTERING */
+#job-filter{
+    bottom: 25px;
+    margin: auto 3.5%;
+    position: relative;
+}
+#job-filter .jb-row{
+    height: 5%;
+}
+#job-filter li{
+    float: left;
+}
+#job-filter #tg-knowledge {
+    padding-top: 14px !important;
+}
 
 
 
@@ -160,10 +179,13 @@ h1:hover{
         bottom: 68px;
         position: relative;
     }
-    .jb-row{
+    #job-list .jb-row{
         margin: 18% auto !important;
     }
-    
+    #job-filter #tg-knowledge {
+        padding-top: 0px !important;
+        padding-left: 2% !important;
+    }
 }
 
 @media (max-width: 390px) {
@@ -173,7 +195,7 @@ h1:hover{
     h1{
        font-size: 1rem !important; 
     }
-    .jb-row{
+    #job-list .jb-row{
         margin: 30% auto !important;
     }
 }
