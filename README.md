@@ -26,6 +26,7 @@
 * CSS custom properties (variables)
 * Flexbox
 * Pseudo Elements
+* CSS Grid
 
 ## What I learned
 * Pseudo Elements
