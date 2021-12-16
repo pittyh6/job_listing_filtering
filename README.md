@@ -30,6 +30,7 @@
 * CSS Grid
 
 ## What I learned
+* Photoshop (Understanding size, padding, etc)
 * Css Variables (Better Understanding)
 * Bootstrap badge 
 * CSS shadow box

@@ -58,21 +58,38 @@ body{
 .container{ 
     display: block;
     margin: auto;
-    padding:0 45px;
+    padding:0 45px 40px;
     max-width: 1110px;
     width: auto;
 }
-.search{ 
+.search, .jobs_item{
     background-color: var(--white);
     border-radius: 10px;
     box-shadow: 5px 10px 24px -10px var(--Shadow);
+}
+.search{     
+    box-sizing: border-box;    
+    margin: -35px;
+    opacity: 1;
     padding: 20px 40px;
-    box-sizing: border-box;
     height: auto;
     min-height: 70px;
     width: 100%;
 }
-
+.jobs{
+    display: grid;
+    grid-row-gap: 25px;
+    margin-top: 80px;
+    margin-left: -34px;
+    height: auto;
+    width: 100%;
+}
+.jobs_item{
+    box-sizing: border-box;
+    padding: 32px 40px;
+    height: auto;
+    width: 100%;
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
