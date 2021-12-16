@@ -29,7 +29,6 @@
 * CSS Grid
 
 ## What I learned
-* Pseudo Elements
 * Bootstrap badge 
 * CSS shadow box
 
