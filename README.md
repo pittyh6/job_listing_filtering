@@ -22,6 +22,7 @@
 * Filter job listings based on the categories
 
 ## Built with
+* vanilla JavaScript
 * HTML5 markup
 * CSS custom properties (variables)
 * Flexbox
@@ -29,6 +30,7 @@
 * CSS Grid
 
 ## What I learned
+* Css Variables (Better Understanding)
 * Bootstrap badge 
 * CSS shadow box
 

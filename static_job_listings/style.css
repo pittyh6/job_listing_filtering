@@ -1,0 +1,78 @@
+/* The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+### Primary
+- Desaturated Dark Cyan: hsl(180, 29%, 50%)
+### Neutral
+- Light Grayish Cyan (Background): hsl(180, 52%, 96%)
+- Light Grayish Cyan (Filter Tablets): hsl(180, 31%, 95%)
+- Dark Grayish Cyan: hsl(180, 8%, 52%)
+- Very Dark Grayish Cyan: hsl(180, 14%, 20%)
+
+## Typography
+### Body Copy
+- Font size: 15px
+### Headings
+- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+- Weights: 500, 700
+ */
+
+ /* VARIABLES */
+:root{
+    /* COLORS */
+    --desaturatedDarkCyan: hsl(180, 29%, 50%);
+    --Shadow: hsl(180, 29%, 50%, 0.4);
+    --lightGrayishCyan: hsl(180, 52%, 96%);/*Background*/
+    --lightGrayishCyan: hsl(180, 31%, 95%); /*Filter Tablets*/
+    --darkGrayishCyan: hsl(180, 8%, 52%);
+    --veryDarkGrayishCyan:hsl(180, 14%, 20%);
+    --white: #fff;
+
+    /* fonts */
+    --fontSpartan: 'Spartan', sans-serif;
+    --fontSizeBody: 15px;
+    --fontWeight500: 500;
+    --fontWeight700: 700;
+}
+
+/* reset browser styles */
+html, body{
+    margin: 0
+}
+
+body{
+    background-color: var(--lightGrayishCyan);
+    font-family: var(--fontSpartan);
+    font-size: var(--fontSizeBody);
+}
+.header{     
+    background-color: var(--desaturatedDarkCyan);
+    background-image: url("images/bg-header-desktop.svg");
+    background-size: cover;
+    background-position: center;
+    height: 155px;
+    width: 100%;
+}
+.container{ 
+    display: block;
+    margin: auto;
+    padding:0 45px;
+    max-width: 1110px;
+    width: auto;
+}
+.search{ 
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 5px 10px 24px -10px var(--Shadow);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    height: auto;
+    min-height: 70px;
+    width: 100%;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
