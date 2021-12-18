@@ -5,7 +5,7 @@
 * create a landing page without tutorial, only search on internet document and stack Overflow.
 
 ## Project
-* Bookmark [link](https://github.com/pittyh6/job_listing_filtering/tree/master/static_job_listings)
+* Job Listing Filtering Project [link](https://github.com/pittyh6/job_listing_filtering/tree/master/static_job_listings)
 
 ### Result
 ![Middle Banner](Documentation/.gif)
