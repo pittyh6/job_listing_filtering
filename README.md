@@ -31,6 +31,7 @@
 
 ## What I learned
 * Photoshop (Understanding size, padding, etc)
+* Pseudo elements
 * Css Variables (Better Understanding)
 * Bootstrap badge 
 * CSS shadow box
