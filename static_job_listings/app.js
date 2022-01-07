@@ -152,11 +152,13 @@ const jobListings = [
   ];  
 
 
-function getTagHTML(tag){
-  return `<span class="tag">
+function getTagHTML(tag, tagClass = 'tag'){
+  return `<span class="${tagClass}">
           ${tag}
         </span>`;
 }
+
+
 function getJobListingHTML(jobData){
   const JOB_TAGS_PLACEHOLDER = '###JOB_TAGS###';
   let jobListingHTML = `
@@ -204,5 +206,7 @@ window.addEventListener("click", (event) => {
   if(!targetEl.classList.contains('tag')){
     return ;  
   }
-   console.log("Does contain");
+  const closeTagHTML = getTagHTML(targetEl.innerHTML, 'close_tag');
+  const searchContentEl = document.getElementById("search_content");
+  searchContentEl.innerHTML = searchContentEl.innerHTML + closeTagHTML;  
 });

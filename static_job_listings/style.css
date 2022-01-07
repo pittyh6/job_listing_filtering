@@ -64,7 +64,7 @@ body{
     min-height: 70px;
     width: 100%;
 }
-.search-clear{
+.search_clear{
     background-color: transparent;
     border: none;
     color: var(--desaturatedDarkCyan);
@@ -74,7 +74,7 @@ body{
     margin-left: 50px;
     outline: none;
 }
-.search-clear:hover{
+.search_clear:hover{
     text-decoration: underline;
 }
 .tag, .close_tag{
