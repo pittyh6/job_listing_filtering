@@ -1,9 +1,6 @@
 # Job Listings with Filtering Project
 
 ![Begin Banner](Documentation/Under_Development.gif)
-
-* create a landing page without tutorial, only search on internet document and stack Overflow.
-
 ## Project
 * Job Listing Filtering Project [link](https://github.com/pittyh6/job_listing_filtering/tree/master/static_job_listings)
 

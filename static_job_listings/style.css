@@ -54,13 +54,69 @@ body{
     box-shadow: 5px 10px 24px -10px var(--Shadow);
 }
 .search{     
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+    display: flex;   
+    justify-content: space-between;
     margin: -35px;
     opacity: 1;
     padding: 20px 40px;
     height: auto;
     min-height: 70px;
     width: 100%;
+}
+.search-clear{
+    background-color: transparent;
+    border: none;
+    color: var(--desaturatedDarkCyan);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight:var(--fontWeight600);
+    margin-left: 50px;
+    outline: none;
+}
+.search-clear:hover{
+    text-decoration: underline;
+}
+.tag, .close_tag{
+    background-color: var(--lightGrayishCyan);
+    border-radius: 5px;
+    color: var(--desaturatedDarkCyan);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: var(--fontWeight600);
+    margin: 6px;
+    padding: 8px 13px;
+    position: relative;
+    transition: background-color 0.2s;
+    height: auto;
+    width: auto;
+}
+.tag:hover{
+    background-color: var(--desaturatedDarkCyan);
+    color: var(--lightGrayishCyan)
+}
+.close_tag{
+    padding-right: 45px;
+}
+.close_tag::after{ 
+    background-color: var(--desaturatedDarkCyan);
+    background-image: url("images/icon-remove.svg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 30px;    
+}
+.close_tag:hover::after{
+    background-color: var(--veryDarkGrayishCyan);
 }
 .jobs{
     display: grid;
@@ -126,7 +182,6 @@ body{
 .jobs_details_item:last-child::after{
     content: none;
 }
-
 
 
 .attribution { font-size: 11px; text-align: center; }
