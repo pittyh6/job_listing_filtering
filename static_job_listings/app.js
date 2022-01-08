@@ -198,15 +198,42 @@ const jobsListingsHTML = jobListings.reduce((acc, currentListing) => {
   return acc + getJobListingHTML(currentListing);
 }, '');
 
+function toggleClass(el, className){
+  if(el.classList.contains(className)){
+    el.classList.remove(className);
+    return;
+  }
+  el.classList.add(className);
+}
+// function handleTagStyles(tagEl){
+//   const ACTIVE_CLASS = "tag_active";  
+// }
+
 document.getElementById('jobs').innerHTML = jobsListingsHTML;
 
 window.addEventListener("click", (event) => {
   const targetEl = event.target;
-  console.log("Classes ", targetEl);
+  const tagValue = targetEl.innerHTML;
+
   if(!targetEl.classList.contains('tag')){
     return ;  
   }
-  const closeTagHTML = getTagHTML(targetEl.innerHTML, 'close_tag');
+
   const searchContentEl = document.getElementById("search_content");
+
+  let searchBarTags = Array.from(searchContentEl.children)
+        .map(node => node.innerHTML && node.innerHTML.trim())
+        .filter(tag => !!tag)
+
+  if(searchBarTags.includes(tagValue)){
+    searchBarTags = searchBarTags.filter(tag => tag !== tagValue.innerHTML)
+  }else{
+    searchBarTags = [...searchBarTags, tagValue];
+  }
+
+  toggleClass(targetEl, 'tag_active');
+
+  
+  const closeTagHTML = getTagHTML(targetEl.innerHTML, 'close_tag');
   searchContentEl.innerHTML = searchContentEl.innerHTML + closeTagHTML;  
 });

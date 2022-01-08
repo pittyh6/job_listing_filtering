@@ -92,7 +92,7 @@ body{
     height: auto;
     width: auto;
 }
-.tag:hover{
+.tag:hover, .tag_active{
     background-color: var(--desaturatedDarkCyan);
     color: var(--lightGrayishCyan)
 }
