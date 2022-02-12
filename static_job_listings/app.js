@@ -205,35 +205,35 @@ function toggleClass(el, className){
   }
   el.classList.add(className);
 }
-// function handleTagStyles(tagEl){
-//   const ACTIVE_CLASS = "tag_active";  
-// }
 
-document.getElementById('jobs').innerHTML = jobsListingsHTML;
-
-window.addEventListener("click", (event) => {
-  const targetEl = event.target;
-  const tagValue = targetEl.innerHTML;
-
-  if(!targetEl.classList.contains('tag')){
-    return ;  
-  }
-
+function toggleSearchbarTag(tagValue){
   const searchContentEl = document.getElementById("search_content");
-
   let searchBarTags = Array.from(searchContentEl.children)
         .map(node => node.innerHTML && node.innerHTML.trim())
         .filter(tag => !!tag)
 
   if(searchBarTags.includes(tagValue)){
-    searchBarTags = searchBarTags.filter(tag => tag !== tagValue.innerHTML)
+    searchBarTags = searchBarTags.filter(tag => tag !== tagValue)
   }else{
     searchBarTags = [...searchBarTags, tagValue];
-  }
-
-  toggleClass(targetEl, 'tag_active');
-
+  } 
   
-  const closeTagHTML = getTagHTML(targetEl.innerHTML, 'close_tag');
-  searchContentEl.innerHTML = searchContentEl.innerHTML + closeTagHTML;  
+  searchContentEl.innerHTML = searchBarTags.reduce((acc, currentTag) => {
+    return acc + getTagHTML(currentTag, 'close_tag');
+  },'');  
+}
+
+document.getElementById('jobs').innerHTML = jobsListingsHTML;
+
+window.addEventListener("click", (event) => {
+  const targetEl = event.target;
+  const tagValue = targetEl.innerHTML.trim();
+  const tagClasses = ['tag', 'close_tag']
+
+  if(!tagClasses.some(c => targetEl.classList.contains(c))){
+    return ;  
+  }
+  toggleSearchbarTag(tagValue);
+  toggleClass(targetEl, 'tag_active');  
+  
 });
