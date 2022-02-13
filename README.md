@@ -4,9 +4,6 @@
 ## Project
 * Job Listing Filtering Project [link](https://github.com/pittyh6/job_listing_filtering/tree/master/static_job_listings)
 
-### Result
-![Middle Banner](Documentation/.gif)
-
 ## Management Tools
 * Jira(Sprints) [link](https://github.com/pittyh6/job_listing_filtering/tree/master/Sprint%204)
 

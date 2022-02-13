@@ -15,5 +15,3 @@
 * create a landing page without tutorial, only search on internet document and stack Overflow.
 
 ## What I have done
-
-https://www.youtube.com/watch?v=j-FUcINCUdM
